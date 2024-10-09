@@ -8,7 +8,7 @@
     int d = x % 100 / 10;
     int a = x / 100;
     if(a*d*c>b) Console.WriteLine("Больше числа b");
-    else Console.WriteLine("Меньше чила b");
+    else Console.WriteLine("Меньше числа b");
     if((a+b+c)%3==0) Console.WriteLine("Кратно трем");
     else Console.WriteLine("Не кратно трем");
 }
